@@ -46,4 +46,21 @@ body {
     margin-bottom: 10px;
   }
 
+  #idiomas ul {
+  list-style: none;
+  padding: 0;
+}
+
+#idiomas li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 18px;
+  margin-right: 10px;
+}
   

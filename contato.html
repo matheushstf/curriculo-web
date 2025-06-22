@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="sobre.html"><button>Sobre Mim</button></a>
+    <a href="profissional.html"><button>Profissional</button></a>
+    <a href="contato.html"><button>Contato</button></a>
+    <a href="extra.html"><button>Extra</button></a>
+  </div>
+
+  <div class="content">
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="contatoForm">
+        <label for="nome">Nome:</label><br />
+        <input type="text" id="nome" name="nome" required class="input-field" /><br /><br />
+
+        <label for="telefone">Telefone:</label><br />
+        <input type="tel" id="telefone" name="telefone" class="input-field" /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required class="input-field" /><br /><br />
+
+        <label for="mensagem">Mensagem:</label><br />
+        <textarea id="mensagem" name="mensagem" rows="5" required class="input-field"></textarea><br /><br />
+
+        <button type="submit" class="btn-send">Enviar</button>
+        <button type="button" onclick="document.getElementById('contatoForm').reset();" class="btn-clear">Limpar</button>
+      </form>
+    </section>
+
+  </div>
+
+</body>
+</html>
